@@ -19,5 +19,5 @@ echo str_pad($code, 8, '#', STR_PAD_LEFT);
 echo strip_tags($text); // nos quita las etiquetas HTML
 
 echo strtoupper($text); // monobyte
-echo mb_strtolower($text); // multibyte
+echo mb_strtolower($text); // multibyte OJOOOO en php v 8 ya no funciona toca instalar un paquete para que la soporte
 
